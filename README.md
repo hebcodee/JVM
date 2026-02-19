@@ -7,10 +7,10 @@ $ jvm use 17
 Now using java 17
 $ java -version
 java version "17.0.12" 2024-07-16 LTS
-$ nvm use 21
+$ jvm use 21
 Now using java 21
-$ node use 25 -p
-Now using java 17 /c/Program Files/Java/jdk-17
+$ jvm use 25 -p
+Now using java 25 /c/Program Files/Java/jdk-25
 
 ```
 
