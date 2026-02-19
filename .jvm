@@ -1,0 +1,25 @@
+#!/bin/bash
+
+case "$1" in
+  use)
+    case "$2" in
+      17)
+        export JAVA_HOME="/c/Program Files/Java/jdk-17"
+        ;;
+      21)
+        export JAVA_HOME="/c/Program Files/Java/jdk-21"
+        ;;
+      25)
+        export JAVA_HOME="/c/Program Files/Java/jdk-25"
+        ;;
+      *)
+        echo "Uso: jvm use {17|21|25}"
+        exit 1
+        ;;
+    esac
+    echo "JAVA_HOME set to $JAVA_HOME"
+    ;;
+  *)
+    echo "Uso: jvm use {17|21|25}"
+    ;;
+esac
