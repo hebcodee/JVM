@@ -100,7 +100,7 @@ jvm use 21
 
 Resultado:
 ```
-JAVA_HOME set to /c/Program Files/Java/jdk-21
+Now using java 21
 ```
 
 ## Adicionando novas versoes:
